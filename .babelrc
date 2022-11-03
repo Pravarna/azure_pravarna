@@ -1,0 +1,13 @@
+/* The . babelrc file is your local configuration for your code in your 
+    project. Generally you would put it in the root of your application repo.
+    It will affect all files that Babel processes that are in the same directory or in sibling directories of the*/
+{
+  "presets": [
+    "@babel/env",
+    "@babel/react",
+    "@babel/typescript"
+  ],
+  "plugins": [
+    ["@babel/transform-runtime"]
+]
+}
